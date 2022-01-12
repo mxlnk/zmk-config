@@ -49,15 +49,15 @@
 		};
 		navigation {
 // ---------------------------------------------------------------------------------------------------------------------------------
-// | _ | _ |  _  |  _  		|  _  		| _ |                  		| _ |  _  |  _  |  _  |   _   | _ |
-// | _ | _ |  _  |  _  		|  _  		| _ |                  		| l |  d  |  u  |  r  |   _   | _ |
-// | _ | _ |  _  |  _  		|  _  		| _ | RGB_HUI | EP_ON  |  | _ | _ | _ |  _  |  _  |  _  |   _   | _ |
-//               | RGB_TOG 	| RGB_EFF 	| _ | RGB_HUD | EP_OFF |  | _ | _ | _ |  _  |  _  |
+// | _ | _ |  _  |  _  		|  _  		| _ |                  				| _ |  _  |  _  |  _  |   _   | _ |
+// | _ | _ |  _  |  _  		|  _  		| _ |                  				| l |  d  |  u  |  r  |   _   | _ |
+// | _ | _ |  _  |  _  		|  _  		| _ | RGB_HUI | EP_ON  |  | _ | _ 	| _ |  _  |  _  |  _  |   _   | _ |
+//               | RGB_TOG 	| RGB_EFF 	| _ | RGB_HUD | EP_OFF |  | _ | _ 	| _ |  _  |  _  |
 			bindings = <
-	&none &none &none 	&none 			&none 			&none                              				&none 		&none 		&none 	&none 		&none &none
-	&none &none &none 	&none 			&none 			&none                              				&kp LEFT 	&kp DOWN 	&kp UP 	&kp RIGHT 	&none &none
+	&none &none &none 	&none 			&none 			&none                              							&none 		&none 		&none 	&none 		&none &none
+	&none &none &none 	&none 			&none 			&none                              							&kp LEFT 	&kp DOWN 	&kp UP 	&kp RIGHT 	&none &none
 	&none &none &none 	&none 			&none 			&none &rgb_ug RGB_HUI &ext_power EP_ON      &none &none 	&none 		&none 		&none 	&none 		&none &none
-	                	&rgb_ug RGB_TOG &rgb_ug RGB_EFF &none &rgb_ug RGB_HUD &ext_power EP_OFF	  &none &none 	&none 		&none 		&none
+	                	&rgb_ug RGB_TOG &rgb_ug RGB_EFF &none &rgb_ug RGB_HUD &ext_power EP_OFF	  	&none &none 	&none 		&none 		&none
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
